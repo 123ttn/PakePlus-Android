@@ -1,0 +1,60 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "困难选择器"
+      }
+    },
+    {
+      "path": "pages/select/index",
+      "style": {
+        "navigationBarTitleText": "选择"
+      }
+    },
+    {
+      "path": "pages/modules/index",
+      "style": {
+        "navigationBarTitleText": "模块管理"
+      }
+    },
+    {
+      "path": "pages/settings/index",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "困难选择器",
+    "navigationBarBackgroundColor": "#0a0a1a",
+    "backgroundColor": "#0a0a1a"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#ffd700",
+    "borderStyle": "black",
+    "backgroundColor": "#0a0a1a",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/modules/index",
+        "iconPath": "static/tabbar/modules.png",
+        "selectedIconPath": "static/tabbar/modules-active.png",
+        "text": "模块"
+      },
+      {
+        "pagePath": "pages/settings/index",
+        "iconPath": "static/tabbar/settings.png",
+        "selectedIconPath": "static/tabbar/settings-active.png",
+        "text": "设置"
+      }
+    ]
+  }
+}
